@@ -1,0 +1,57 @@
+header, nav, main, footer { display: block; }
+body { background-color: #2baabc; 
+       font-family: "Aptos Display", sans-serif;
+}
+/* wrapper section */
+#wrapper { width: 1200px; /* set width */
+           margin: auto; /* sets margins */
+		   background-color: #F4E8BC; /* setws background color */
+		   color: #000000; /* set text color */
+		   box-shadow: 5px 5px 5px #000000; /* set pox shadow width height and color */
+}
+/* styles for h1 */
+h1 { background-image: url(images/commonarea.jpeg); /* set background image */
+     background-repeat: no-repeat; /* set background repeat */
+     background-color: #d4b77a; /* set background color */
+	 height: 100px; /* set hieght of background image */
+	 font-family: "aptos black", serif; /* set font family */
+	 font-size: 4.5em; /* set font size */
+	 padding-top: 20px; /* top padding */
+	 text-shadow: 3px 3px 3px #90745D; /* text shadow size and color*/
+	 margin-bottom: 0; /* bottom margin */
+}
+ /* navigation section */
+nav { padding-left: 109px; /* top padding */
+      float: left; /* whether the nav bar floats with the page */
+      width: 100%; /* width of nav bar */
+}
+nav ul { list-style-type: none; /* seta nav style */
+       padding-top: 20px; /* sets padding */
+	   display: flex
+	 }
+	
+nav li { padding-right: 18px; /* padding */
+       font-weight: bold; /* makes font bold */
+}
+nav a { text-decoration: none; } /*text decoration */
+nav a:link { color: #330001; } /* set color for links */
+nav a:visited{ color: #90745E; } /* sets for visited links */
+nav a:hover { color: #3F4631; } /* color links turn when hovered over */
+
+/* main content styles */
+main { background-color: #FFFFCC; /* set background color for main */
+          padding: 1px 20px 20px 20px; /* set padding on all sides */
+		  min-height: 700px; /* set min hieght */
+}
+main img { float: right; /* float property of the main img */
+              padding: 20px; /* padding of main image */
+}
+/* footer section */
+footer { background-color: #FFFFCC; /* background color for footer */
+       margin-left: 200px; /* left margin */
+       padding: 20px; /* padding */
+       text-align: center; /* align text to center */
+	   font-size: small; /* set font size */
+	   font-style: italic; /* set style to italic */
+}
+	  
