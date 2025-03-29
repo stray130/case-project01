@@ -5,9 +5,13 @@
 <title>Mesa Verde Mountain Inn</title>
 <meta charset="utf-8">
 <link href="styles/casita.css" rel="stylesheet">
-</head>
+<p id="demo">Good Evening!</p>
+<script>
+if (new Date().getHours() < 18) {
+  document.getElementById("demo").innerHTML = "Good afternoon!";
+}
+</script>
 <!-- body section -->
-<body>
 <div id="wrapper">
   <header>
       <h1>Mesa Verde Mountain Inn</h1>
